@@ -36,8 +36,8 @@ class Jumbotron extends StatelessWidget {
                     TextSpan(
                         text: 'Buy',
                         style: TextStyle(
-                          fontSize: isDesktop(context) ? 64 : 32,
-                        )),
+                            fontSize: isDesktop(context) ? 64 : 32,
+                            color: Colors.green)),
                     TextSpan(
                         text: 'cruelty Free',
                         style: TextStyle(

@@ -16,7 +16,7 @@ class MainButton extends StatelessWidget {
       child: TextButton(
         onPressed: tapEvent,
         style: ButtonStyle(
-          backgroundColor: MaterialStateProperty.all<Color>(vSecondrColor),
+          backgroundColor: MaterialStateProperty.all<Color>(vPrimaryColor),
           padding: MaterialStateProperty.all(
               EdgeInsets.symmetric(horizontal: 10, vertical: 10)),
         ),
